@@ -7,13 +7,13 @@ To get started with Octavi-OS, you'll need to get familiar with [Repo](https://s
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11
+repo init -u https://github.com/R15Hi/octavi_manifest.git -b 11
 
 ```
 or to save bandwith and space 
 
 ```bash
-repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 11 --depth=1
+repo init -u https://github.com/R15Hi/platform_manifest.git -b 11 --depth=1
 ```
 
 Then to sync up:
