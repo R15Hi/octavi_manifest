@@ -21,7 +21,7 @@
  <!-- Octavi Repos -->
 
   <project name="platform_bionic" path="bionic" remote="octavi" />
-  <project name="platform_build_make" path="build/make" remote="octavi" >
+  <project name="octavi_build_make" path="build/make" remote="roy" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -55,9 +55,9 @@
   <project path="external/sqlite" name="platform_external_sqlite" remote="octavi" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="octavi" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="roy" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="octavi" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="octavi" />
+  <project path="frameworks/base" name="octavi_frameworks_base" remote="roy" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="octavi" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="octavi" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="octavi" />
@@ -85,17 +85,17 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="octavi" />
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="octavi" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="octavi" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="roy" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
-  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="octavi" />
+  <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="roy" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="octavi" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="octavi" />
+  <project path="packages/apps/Settings" name="octavi_packages_apps_Settings" remote="roy" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="octavi" />
   <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="octavi" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="octavi" />
-  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="octavi" />
-  <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="octavi" />
+  <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="roy" />
+  <project path="packages/apps/PotatoPlugins" name="platform_packages_apps_PotatoPlugins" remote="roy" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="octavi" />
 
   <!-- Prebuilts -->
@@ -127,7 +127,7 @@
   <project path="device/octavi/sepolicy" name="platform_device_octavi_sepolicy" remote="octavi" />
 
   <!-- Vendor -->
-  <project path="vendor/octavi" name="platform_vendor_octavi" remote="octavi" />
+  <project path="vendor/octavi" name="octavi_vendor_octavi" remote="roy" />
   <project path="vendor/support" name="platform_vendor_support" remote="octavi" />
   <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="sagar-gitlab" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="octavi" />

@@ -6,6 +6,10 @@
   <remote name="octavi"
           fetch="https://github.com/Octavi-OS"
           revision="refs/heads/11" />
+          
+  <remote name="roy"
+          fetch="https://github.com/R15Hi"
+          revision="refs/heads/11" />         
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
