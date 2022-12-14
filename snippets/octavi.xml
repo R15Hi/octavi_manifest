@@ -13,6 +13,11 @@
   <remote name="sagar-gitlab"
           fetch="https://gitlab.com/sagarrokade006"
           revision="eleven" />
+          
+   <remote  name="nad"
+           fetch="https://github.com/NusantaraProject-ROM/"
+           revision="11"
+           sync-j="16" />
 
   <remote name="dot-gitlab"
           fetch="http://gitlab.com/dotos-official/"
@@ -42,8 +47,7 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="octavi" />
-
-
+  <project path="external/aac" name="android_external_aac" remote="nad" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="octavi" />
   <project path="external/guice" name="platform_external_guice" remote="octavi" />
   <project path="external/libcxx" name="platform_external_libcxx" remote="octavi" /> 
@@ -53,6 +57,10 @@
   <project path="external/zlib" name="platform_external_zlib" remote="octavi" />
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie_new" remote="octavi" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="octavi" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="nad" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="nad" />
+  <project path="external/expat" name="android_external_expat" remote="nad" />
+  <project path="external/dtc" name="android_external_dtc" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="roy" />
@@ -80,14 +88,18 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="octavi" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="nad" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="octavi" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nad" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="octavi" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="octavi" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="nad" />
   <project path="packages/apps/FaceUnlockService" name="platform_packages_apps_FaceUnlockService" remote="octavi" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="roy" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="octavi" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="octavi" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="nad" />
   <project path="packages/apps/OctaviLab" name="platform_packages_apps_OctaviLab" remote="roy" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="octavi" />
   <project path="packages/apps/Settings" name="octavi_packages_apps_Settings" remote="roy" />
@@ -113,7 +125,9 @@
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="octavi" />
   <project path="system/vold" name="platform_system_vold" remote="octavi" />
+  <project path="system/nfc" name="android_system_nfc" remote="nad" />
   <project path="system/netd" name="platform_system_netd" remote="octavi" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="nad" />
   <project path="system/bt" name="platform_system_bt" remote="octavi" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="octavi" />
   <project path="system/media" name="platform_system_media" remote="octavi" />
