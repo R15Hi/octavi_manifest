@@ -21,6 +21,8 @@
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
+  <project path="frameworks/ml" name="android_frameworks_ml" remote="lineage" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
