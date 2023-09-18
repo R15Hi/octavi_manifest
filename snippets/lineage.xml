@@ -9,6 +9,7 @@
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
@@ -101,9 +102,17 @@
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   
+  <!--packages-->
+  <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" groups="pdk-fs" remote="lineage"/>
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
+  
   <!-- System -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="lineage" />
 
+  <!-- Tools-->
+  <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
+  
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="lineage" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
@@ -119,8 +128,5 @@
   
   <!-- Device Settings -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-
-  <!-- Packages -->
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
 
 </manifest>
